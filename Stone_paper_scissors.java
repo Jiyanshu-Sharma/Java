@@ -1,3 +1,4 @@
+//                  STILL WORKING ON IT ................                    
 import java.util.Random;
 import java.util.Scanner;
 class Stone_paper_Scissors
@@ -6,7 +7,7 @@ class Stone_paper_Scissors
     {
         Scanner sc = new Scanner(System.in);
         Random rn = new Random();
-        System.out.println("Welcome to Tic Tac Toe ");
+        System.out.println("Welcome to The Game  ");
         System.out.println("Enter \n R for Rock \n P for Paper \n S for Scissiors \n E to end the game ");
         while(true) {
             char cd = sc.next().charAt(0);

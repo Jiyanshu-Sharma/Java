@@ -1,0 +1,17 @@
+class reverse
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int res =0;
+        int b = 0;
+        while(a!=0)
+        {
+            b = a%10;
+            res = res*10 + b;
+            a = a/10;
+        }
+        System.out.println(res);
+    }
+}
